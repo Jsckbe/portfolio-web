@@ -9,7 +9,7 @@ HTML CSS Bootstrap
 ![](https://github.com/Jsckbe/portfolio-web/blob/main/imagenes/readme/SS2.jpg)
 <hr>
 
-![](https://github.com/Jsckbe/portfolio-web/blob/main/imagenes/readme/SS3-services.jpg)
+![](https://github.com/Jsckbe/portfolio-web/blob/main/imagenes/readme/SS3.jpg)
 <hr>
 
 ![](https://github.com/Jsckbe/portfolio-web/blob/main/imagenes/readme/SS4.jpg)
