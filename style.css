@@ -554,7 +554,13 @@ h1 {
     width: 80%;
     max-width: 600px;
     margin: 20px;
+    border-radius: 5px;
+    /*color gradient a los border*/
+    border: 2.5px solid #e4111100;
+    background:
+        linear-gradient(#09f, rgb(222, 220, 220))border-box;
 }
+
 
 .articulos .card-header {
     font-weight: bold;
