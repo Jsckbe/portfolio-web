@@ -165,8 +165,18 @@ img, hero-inferior.imagen {
     border-bottom: 2px solid rgb(51, 253, 162); 
 }
 
+/* barra navigation colapsed*/
+.navbar-toggler {
+    border-radius: 5px;
+    /*color gradient a los border*/
+    border: 2.5px solid rgba(0, 255, 255, 0.789);
+    background:
+        linear-gradient(rgba(7, 220, 202, 0.815), rgb(222, 220, 220))border-box;
+}
+
+  
 .navbar-toggler:hover {
-    color: cyan;
+    color: rgba(0, 255, 255, 0.803);
 }
 
 .navbar{
