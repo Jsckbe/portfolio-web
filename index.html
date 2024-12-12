@@ -72,10 +72,23 @@
                   </li>
                   <!-- btn modo oscuro -->
                   <input type="checkbox" class="checkbox">
-                  <!-- Test: CV -->
+                  <!-- Test: CV - 1 pestaña -->
+                   <!--
                   <li class="nav-item">
-                    <a id="boton-cv" class="nav-link" href="./imagenes/documents/CV-Jack.pdf" target="_blank" rel="noopener noreferrer">Descargar CV</a>
+                    <a id="boton-cv" class="nav-link" href="./imagenes/documents/CV-ResumeUPC.pdf" target="_blank" rel="noopener noreferrer">Descargar CV</a>
                   </li>
+                  -->
+                  <!-- Test: CV - dos pestañas -->
+                  <li class="nav-item">
+                    <a id="boton-cv" class="nav-link" href="#" onclick="abrirCV()">Descargar CV</a>
+                  </li>
+
+                  <script>
+                    function abrirCV() {
+                      window.open("./imagenes/documents/CV1 Resume.pdf", "_blank");
+                      window.open("./imagenes/documents/CV-resumeUPC.pdf", "_blank");
+                    }
+                  </script>
                 </ul>
                 
               </div>
