@@ -53,6 +53,33 @@ document.addEventListener("DOMContentLoaded", function() {
             botonCV.setAttribute('disabled', 'disabled'); // Deshabilitamos el botón cuando se oculta
         }
     });
+
+    /* ------- Filtrado proyectos (7)------- */
+    const row = document.querySelector('.proyectos-contenedor .row');
+    document.querySelectorAll('.navbar-portfolio a').forEach(tab => {
+        tab.addEventListener('click', function(e) {
+            e.preventDefault();
+            const category = this.getAttribute('data-category');
+            document.querySelectorAll('.proyecto').forEach(card => {
+                const parent = card.closest('.col-12, .col-md-6, .col-lg-4');
+                // Mostrar Proyecto 7 solo en All o Juegos
+                if (parent.classList.contains('solo-juegos')) {
+                    if (category === 'all' || category === 'juegos') {
+                        parent.style.display = '';
+                    } else {
+                        parent.style.display = 'none';
+                    }
+                } else {
+                    // Mostrar u ocultar los demás según la categoría
+                    if (category === 'all' || card.getAttribute('data-category') === category) {
+                        parent.style.display = '';
+                    } else {
+                        parent.style.display = 'none';
+                    }
+                }
+            });
+        });
+    });
 });
 
 

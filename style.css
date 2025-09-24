@@ -888,3 +888,8 @@ footer {
         font-size: 40px;
     }
 }
+
+.fila-juegos {
+  flex-wrap: nowrap !important;
+  overflow-x: auto;
+}
